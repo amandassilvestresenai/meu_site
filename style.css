@@ -130,3 +130,74 @@ body {
     background-color: rgb(86, 60, 159);
     font-family: 'Times New Roman', Times, serif;
 }
+.area-inscricao{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;/*Alinha o topo de todas as colunas*/
+}
+.coluna-form{
+    flex: 1;/*Faz o formulário crescer proporcionalmente*/
+    min-width: 320px;
+    background-color: #ac0ba2;
+    padding: 30px;
+    border-radius: 10px;
+}
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: colum;
+}
+    .coluna-form label{
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.coluna-form input[type="text"],
+.coluna-form input[type="password"],
+.coluna-form input[type="email"],
+.coluna-form input[type="date"],
+.coluna-form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background: color #000;
+    border: 5px;
+    color: #000;
+    font-size: 16px;
+}
+.btn-enviar{
+    background-color: #00ff1a;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*Transforma asea do mouse em uma mãozinha*/
+}
+.btn-enviar:hover{
+    background-color: aqua;
+}
+.btn-limpar:hover{
+    background-color: aqua;
+}
+.btn-limpar{
+    background-color: #da0021;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Precos{
+    font-weight: bold;
+}
+.grade-filmes{
+    text-align: center;
+}
+.Sessoes{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
