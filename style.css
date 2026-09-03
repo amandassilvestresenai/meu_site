@@ -34,6 +34,7 @@ body {
     max-width: 1200px ;/*Largura máxima da tela*/
     margin: 40px auto;/*Margem*/
     padding: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .titulo-secao{
     font-size: 50px;
@@ -53,7 +54,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     gap: 25px;
-    
 }
 .card-filme{
     background-color: rgb(86, 60, 159);
@@ -200,4 +200,25 @@ body {
 .Sessoes{
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
+}
+.Tabela-cardapio{
+    width: 80%;
+    border-radius: 10px;
+}
+.Tabela-preco{
+    width: 100%;
+    background-color: #cf1096;
+    text-align: left;
+    font-size: 17px;
+}
+.Tabela-preco th{
+    background-color: rgb(255, 138, 243);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #da0021;
+    text-align: center;
+}
+.Tabela-preco td{
+    padding: 12px 17px;
+    border-bottom: 2px solid #000000;
 }
